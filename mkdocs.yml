@@ -12,9 +12,27 @@ nav:
       - Hydra: integrations/hydra.md
       - Weigth & Biases: integrations/wandb.md
       - Streamlit: integrations/streamlit.md
+      - MkDocs: integrations/mkdocs.md
       - DVC: integrations/dvc.md
+      - GitHub Actions: integrations/githubactions.md
   - Features:
-    - Environment Variables: features/envvars.md
+    - Core: features/nncore.md
+    - Tags: features/tags.md
+    - Docs: features/docs.md
+    - Tests: features/tests.md
+    - Restore: features/restore.md
+    - Storage: features/storage.md
+    - Seeding: features/determinism.md
+    - Fast dev run: features/fastdevrun.md
+    - Environment variables: features/envvars.md
+    - Publish:
+        - CI/CD: features/cicd.md
+        - PyPi: features/pypi.md
+        - Docs: features/docs.md
+    - Best practices:
+        - Python Environment: features/conda.md
+        - Tooling: features/bestpractices.md
+        - Pre-commits: features/precommits.md
   - Changelog:
     - changelog.md
     - Upgrade: upgrade.md
