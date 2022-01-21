@@ -25,10 +25,7 @@ nav:
     - Determinism: features/determinism.md
     - Fast dev run: features/fastdevrun.md
     - Environment variables: features/envvars.md
-    - Publish:
-        - CI/CD: features/publish/cicd.md
-        - PyPi: features/publish/pypi.md
-        - Docs: features/publish/docs.md
+    - CI/CD: features/cicd.md
     - Best practices:
         - Python Environment: features/conda.md
         - Tooling: features/bestpractices.md
