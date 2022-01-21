@@ -40,6 +40,6 @@ $ git checkout <...>
 $ dvc checkout
 ```
 
----
+!!! info
 
-Read more in the [docs](https://dvc.org/doc/start/data-versioning)!
+    Read more in the DVC [docs](https://dvc.org/doc/start/data-versioning)!

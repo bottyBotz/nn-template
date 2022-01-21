@@ -20,6 +20,7 @@ PYTHONPATH=. python src/run.py -m optim.optimizer.lr=0.02,0.002,0.0002 optim.lr_
 
 You can explore aggregate statistics or compare and analyze each run in the W&B dashboard.
 
----
 
-We recommend to go through at least the [Basic Tutorial](https://hydra.cc/docs/tutorials/basic/your_first_app/simple_cli), and the docs about [Instantiating objects with Hydra](https://hydra.cc/docs/patterns/instantiate_objects/overview).
+!!! info
+
+    We recommend to go through at least the [Basic Tutorial](https://hydra.cc/docs/tutorials/basic/your_first_app/simple_cli), and the docs about [Instantiating objects with Hydra](https://hydra.cc/docs/patterns/instantiate_objects/overview).

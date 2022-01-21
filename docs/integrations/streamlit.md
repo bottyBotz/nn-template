@@ -12,6 +12,9 @@ In just a few minutes, you can build and deploy powerful data apps to:
 
 Moreover, Streamlit enables interactive development with automatic rerun on files changes.
 
-Launch a minimal app with `PYTHONPATH=. streamlit run src/ui/run.py`. There is a built-in function to restore a model checkpoint stored on W&B, with automatic download if the checkpoint is not present in the local machine:
+![Example of live coding an app in Streamlit|635x380](https://github.com/streamlit/docs/raw/main/public/images/Streamlit_overview.gif)
 
-![](https://i.imgur.com/3lTnOA1.png)
+
+!!! info
+
+    Launch a minimal app with `PYTHONPATH=. streamlit run src/ui/run.py`. There is a built-in function to restore a model checkpoint stored on W&B, with automatic download if the checkpoint is not present in the local machine:
