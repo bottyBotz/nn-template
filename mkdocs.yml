@@ -22,7 +22,7 @@ nav:
     - Tests: features/tests.md
     - Restore: features/restore.md
     - Storage: features/storage.md
-    - Seeding: features/determinism.md
+    - Determinism: features/determinism.md
     - Fast dev run: features/fastdevrun.md
     - Environment variables: features/envvars.md
     - Publish:
