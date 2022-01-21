@@ -27,19 +27,23 @@ After that, the PR are marked with ✔️ or ❌ depending on the test suite res
 
 ## Publish docs
 
-The first time you should create the `gh-pages` branch,
-specify the default docs version with `mike`
-and enable the GitHub Pages form the repository settings:
+The first time you should use `mike` to: create the `gh-pages` branch and
+specify the default docs version.
 
 ```bash
 mike deploy 0.1 latest --push
 mike set-default latest
 ```
 
-The docs are built and automatically published `on release` on GitHub Pages.
+!!! info
+
+    Remember to enable the GitHub Pages from the repository settings.
+
+
+After that, the docs are built and automatically published `on release` on GitHub Pages.
 This means that every time you publish a new release in your project an associated version of the documentation is published.
 
-!!! info
+!!! important
 
     The documentation version utilizes only the `<major>.<minor>` version of the release tag, discarding the patch version.
 
