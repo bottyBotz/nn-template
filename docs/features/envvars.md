@@ -1,7 +1,7 @@
 
 # Environment Variables
 
-System specific variables (e.g. absolute paths to datasets) should not be under version control, otherwise there will be conflicts between different users.
+System specific variables (e.g. absolute paths) should not be under version control, otherwise there will be conflicts between different users.
 
 The best way to handle system specific variables is through environment variables.
 
@@ -13,14 +13,30 @@ To define a new variable write inside `.env`:
 export MY_VAR=/home/user/my_system_path
 ```
 
-You can dynamically resolve the variable name from Python code with:
 
-```python
-get_env("MY_VAR")
-```
+You can dynamically resolve the variable name from everywhere
 
-and in the Hydra `.yaml` configuration files with:
+=== "python"
 
-```yaml
-${oc.env:MY_VAR}
-```
+    In Python code use:
+
+    ```python
+    get_env("MY_VAR")
+    ```
+
+=== "yaml"
+
+    In the hydra `yaml` configurations:
+
+    ```yaml
+    ${oc.env:MY_VAR}
+    ```
+
+=== "posix"
+
+    In posix shells:
+
+    ```bash
+    . .env
+    echo $MY_VAR
+    ```
