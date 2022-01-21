@@ -15,7 +15,7 @@ In order to create your docs it is enough to:
         - Strucure: getting-started/structure.md
     ```
 
-2. Create all the files references in the `nav` relative to the `docs/` folder.
+2. Create all the files referenced in the `nav` relative to the `docs/` folder.
 
     ```bash
     ❯ tree docs
