@@ -26,14 +26,26 @@ We support three different modes for restoring an experiment:
 
 === "continue"
 
+    ```yaml
+    restore:
+        mode: continue
+    ```
     In this `mode` the training continues from the checkpoint **and** the logging continues
     in the previous run. No new run is created on the logger dashboard.
 
 === "hotstart"
 
+    ```yaml
+    restore:
+        mode: hotstart
+    ```
     In this `mode` the training continues from the checkpoint **but** the logging does not.
     A new run is created on the logger dashboard.
 
 === "null"
 
+    ```yaml
+    restore:
+        mode: null
+    ```
     In this `mode` no restore happens, and `ckpt_or_run_path` is ignored.
