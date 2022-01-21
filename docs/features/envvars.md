@@ -26,7 +26,7 @@ You can dynamically resolve the variable name from everywhere
 
 === "yaml"
 
-    In the hydra `yaml` configurations:
+    In the Hydra `yaml` configurations:
 
     ```yaml
     ${oc.env:MY_VAR}
