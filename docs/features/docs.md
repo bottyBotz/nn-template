@@ -25,5 +25,6 @@ In order to create your docs it is enough to:
     │   └── structure.md
     └── index.md
     ```
+
 3. To preview your documentation it is enough to run `mkdocs serve`. To manually deploy the documentation
     see [`mike`](https://github.com/jimporter/mike), or see the integrated GitHub Action to [publish the docs on release](/features/publish/docs/).
