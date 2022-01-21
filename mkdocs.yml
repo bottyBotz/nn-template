@@ -29,7 +29,6 @@ nav:
     - Best practices:
         - Python Environment: features/conda.md
         - Tooling: features/bestpractices.md
-        - Pre-commits: features/precommits.md
   - Changelog:
     - changelog.md
     - Upgrade: upgrade.md
